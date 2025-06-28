@@ -44,7 +44,7 @@ const Footer = forwardRef((props, ref) => {
   return (
     <footer
       ref={ref}
-      className="bg-gradient-to-t from-gray-950 via-gray-900 to-gray-950 text-gray-300 relative overflow-hidden"
+      className="bg-gradient-to-t from-gray-950 via-gray-900 to-gray-950 text-gray-300 relative overflow-hidden px-4"
     >
       {/* Decorative background pattern */}
       <div className="absolute inset-0 opacity-5">

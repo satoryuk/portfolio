@@ -43,7 +43,7 @@ const AboutMe = () => {
     >
       <div className="max-w-[1500px] mx-auto">
         <div
-          className={`grid lg:grid-cols-2 lg:gap-16 gap-8 items-center transition-all duration-1000 ${
+          className={`grid lg:grid-cols-2 lg:gap-4 gap-2 items-center transition-all duration-1000 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
           }`}
         >
@@ -108,10 +108,9 @@ const AboutMe = () => {
               </div>
             </div>
 
-            {/* CTA */}
             <div className="pt-4">
               <a
-                href="/your-cv.pdf"
+                href="/public/my_cv.pdf"
                 download
                 className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-yellow-500/25"
               >
