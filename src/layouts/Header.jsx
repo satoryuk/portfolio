@@ -10,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gray-950 text-white">
+    <header className="bg-gradient-to-b from-gray-900 to-gray-950 text-white">
       <div className="container mx-auto p-2 flex justify-between items-center">
         {/* Logo and Profile */}
         <div className="flex items-center space-x-2">
@@ -19,7 +19,7 @@ const Header = () => {
             alt="profile image"
             className="w-10 h-10 rounded-full"
           />
-          <h1 className="hidden md:block text-2xl font-bold px-4 text-yellow-600">
+          <h1 className="hidden md:block text-2xl font-bold px-4 text-yellow-400">
             My Portfolio
           </h1>
         </div>
@@ -28,22 +28,22 @@ const Header = () => {
         <nav className="hidden md:block py-4">
           <ul className="flex space-x-8 lg:space-x-20">
             <li>
-              <a href="/" className="hover:underline hover:text-yellow-600 transition">
+              <a href="/" className="hover:underline hover:text-yellow-400 transition">
                 Home
               </a>
             </li>
             <li>
-              <a href="/about" className="hover:underline hover:text-yellow-600 transition">
+              <a href="/about" className="hover:underline hover:text-yellow-400 transition">
                 About
               </a>
             </li>
             <li>
-              <a href="/project" className="hover:underline hover:text-yellow-600 transition">
+              <a href="/project" className="hover:underline hover:text-yellow-400 transition">
                 Project
               </a>
             </li>
             <li>
-              <a href="/contact" className="hover:underline hover:text-yellow-600 transition">
+              <a href="/contact" className="hover:underline hover:text-yellow-400 transition">
                 Contact
               </a>
             </li>
@@ -66,7 +66,7 @@ const Header = () => {
                 <li>
                   <a
                     href="/"
-                    className="block hover:underline hover:text-yellow-600 transition text-lg"
+                    className="block hover:underline hover:text-yellow-400 transition text-lg"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     Home
@@ -75,7 +75,7 @@ const Header = () => {
                 <li>
                   <a
                     href="/about"
-                    className="block hover:underline hover:text-yellow-600 transition text-lg"
+                    className="block hover:underline hover:text-yellow-400 transition text-lg"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     About
@@ -84,7 +84,7 @@ const Header = () => {
                 <li>
                   <a
                     href="/project"
-                    className="block hover:underline hover:text-yellow-600 transition text-lg"
+                    className="block hover:underline hover:text-yellow-400 transition text-lg"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     Project
@@ -93,7 +93,7 @@ const Header = () => {
                 <li>
                   <a
                     href="/contact"
-                    className="block hover:underline hover:text-yellow-600 transition text-lg"
+                    className="block hover:underline hover:text-yellow-400 transition text-lg"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     Contact

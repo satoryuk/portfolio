@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .blinking-cursor::after {
-  color: #CA8A04;
+  color: #facc15;
   content: "|";
   animation: blink 1s steps(2, start) infinite;
 }

@@ -48,7 +48,7 @@ const Footer = forwardRef((props, ref) => {
     >
       {/* Decorative background pattern */}
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-yellow-600 via-transparent to-transparent"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-yellow-400 via-transparent to-transparent"></div>
       </div>
 
       <div className="relative z-10 max-w-[1500px] mx-auto py-6">
@@ -56,7 +56,7 @@ const Footer = forwardRef((props, ref) => {
           {/* Contact section */}
           <div className="md:col-span-2 space-y-4">
             <h3 className="text-xl font-semibold text-white mb-4 flex items-center gap-2">
-              <Mail className="w-5 h-5 text-yellow-500" />
+              <Mail className="w-5 h-5 text-yellow-400" />
               Get In Touch
             </h3>
             <p className="text-gray-400 leading-relaxed text-left">
@@ -65,7 +65,7 @@ const Footer = forwardRef((props, ref) => {
               out for collaborations or just to say hello!
             </p>
             <div className="flex items-center gap-2 text-sm">
-              <Mail className="w-4 h-4 text-yellow-500" />
+              <Mail className="w-4 h-4 text-yellow-400" />
               <a
                 href="mailto:thongvathana22@gmail.com"
                 className="text-yellow-400 hover:text-yellow-300 transition-colors duration-200 underline decoration-dotted"

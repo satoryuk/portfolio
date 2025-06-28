@@ -32,8 +32,8 @@ const HomePage = () => {
               Hi There! I'm Thong Vathana
             </h2>
             <h1 className="text-4xl md:text-5xl font-bold mt-2 text-gray-300">
-              I am <span className="text-yellow-600">Junior Developer</span>
-              <span className="blinking-cursor text-yellow-600">|</span>
+              I am <span className="text-yellow-400">Junior Developer</span>
+              <span className="blinking-cursor text-yellow-400">|</span>
             </h1>
             <p className="text-gray-400 mt-4 text-base md:text-lg max-w-lg mx-auto lg:mx-0">
               I design and build responsive, user-friendly websites tailored to
@@ -41,7 +41,7 @@ const HomePage = () => {
               efficient code.
             </p>
             <button
-              className="mt-6 px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-md transition-all duration-300"
+              className="mt-6 px-6 py-3 bg-green-500 hover:bg-green-600 rounded-lg text-white font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-yellow-500/25"
               onClick={handleContactClick}
             >
               Contact Me
