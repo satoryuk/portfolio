@@ -28,22 +28,42 @@ const Header = () => {
         <nav className="hidden md:block py-4">
           <ul className="flex space-x-8 lg:space-x-20">
             <li>
-              <a href="/" className="hover:underline hover:text-yellow-400 transition">
+              <a
+                href="/"
+                className="hover:underline hover:text-yellow-400 transition"
+              >
                 Home
               </a>
             </li>
             <li>
-              <a href="/about" className="hover:underline hover:text-yellow-400 transition">
+              <a
+                href="/about"
+                className="hover:underline hover:text-yellow-400 transition"
+              >
                 About
               </a>
             </li>
             <li>
-              <a href="/project" className="hover:underline hover:text-yellow-400 transition">
+              <a
+                href="/project"
+                className="hover:underline hover:text-yellow-400 transition"
+              >
                 Project
               </a>
             </li>
             <li>
-              <a href="/contact" className="hover:underline hover:text-yellow-400 transition">
+              <a
+                href="/skills"
+                className="hover:underline hover:text-yellow-400 transition"
+              >
+                Skills
+              </a>
+            </li>
+            <li>
+              <a
+                href="/contact"
+                className="hover:underline hover:text-yellow-400 transition"
+              >
                 Contact
               </a>
             </li>

@@ -34,7 +34,7 @@ const AboutMe = () => {
     },
   ];
 
-  const techStack = ["React", "Tailwind CSS", "Laravel", "Next.js"];
+  const techStack = ["React JS", "Tailwind CSS", "Laravel"];
 
   return (
     <section
