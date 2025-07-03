@@ -93,10 +93,10 @@ const HomePage = () => {
         <AboutMe />
       </section>
       <section>
-        <Projects />
-      </section>
-      <section>
         <Services />
+      </section> 
+      <section>
+        <Projects />
       </section>
       <section>
         <Skills />
