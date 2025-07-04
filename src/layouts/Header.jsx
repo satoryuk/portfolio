@@ -37,7 +37,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                href="/about"
+                href="#about"
                 className="hover:underline hover:text-yellow-400 transition"
               >
                 About
@@ -45,7 +45,15 @@ const Header = () => {
             </li>
             <li>
               <a
-                href="/project"
+                href="#services"
+                className="hover:underline hover:text-yellow-400 transition"
+              >
+                Service
+              </a>
+            </li>
+            <li>
+              <a
+                href="#projects"
                 className="hover:underline hover:text-yellow-400 transition"
               >
                 Project
@@ -53,20 +61,20 @@ const Header = () => {
             </li>
             <li>
               <a
-                href="/skills"
+                href="#skills"
                 className="hover:underline hover:text-yellow-400 transition"
               >
                 Skills
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
-                href="/contact"
+                href="#contact"
                 className="hover:underline hover:text-yellow-400 transition"
               >
                 Contact
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
 
@@ -94,7 +102,7 @@ const Header = () => {
                 </li>
                 <li>
                   <a
-                    href="/about"
+                    href="#about"
                     className="block hover:underline hover:text-yellow-400 transition text-lg"
                     onClick={() => setIsMenuOpen(false)}
                   >
@@ -103,7 +111,16 @@ const Header = () => {
                 </li>
                 <li>
                   <a
-                    href="/project"
+                    href="#services"
+                    className="block hover:underline hover:text-yellow-400 transition text-lg"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    Service
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#projects"
                     className="block hover:underline hover:text-yellow-400 transition text-lg"
                     onClick={() => setIsMenuOpen(false)}
                   >
@@ -112,13 +129,22 @@ const Header = () => {
                 </li>
                 <li>
                   <a
-                    href="/contact"
+                    href="#skills"
+                    className="block hover:underline hover:text-yellow-400 transition text-lg"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    Skills
+                  </a>
+                </li>
+                {/* <li>
+                  <a
+                    href="#contact"
                     className="block hover:underline hover:text-yellow-400 transition text-lg"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     Contact
                   </a>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>
