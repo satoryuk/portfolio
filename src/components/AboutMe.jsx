@@ -112,7 +112,7 @@ const AboutMe = () => {
             {/* CV Buttons */}
             <div className="flex gap-3 sm:gap-4">
               <a
-                href="/public/my_cv.pdf"
+                href="/my_cv.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 sm:gap-3 bg-blue-500 hover:bg-blue-600 text-white px-4 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-blue-500/25 text-sm sm:text-base"
@@ -121,7 +121,7 @@ const AboutMe = () => {
                 <span>View CV</span>
               </a>
               <a
-                href="/public/my_cv.pdf"
+                href="/my_cv.pdf" 
                 download="ThongVathana.pdf"
                 className="inline-flex items-center gap-2 sm:gap-3 bg-green-500 hover:bg-green-600 text-white px-4 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-green-500/25 text-sm sm:text-base"
               >
