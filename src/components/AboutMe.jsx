@@ -19,7 +19,7 @@ const AboutMe = () => {
   const quickFacts = [
     {
       icon: <GraduationCap className="w-5 h-5 text-yellow-400" />,
-      label: "Studying at Royal University of Phnom Penh",
+      label: "Royal University of Phnom Penh",
     },
     {
       icon: <Briefcase className="w-5 h-5 text-yellow-400" />,
@@ -27,7 +27,7 @@ const AboutMe = () => {
     },
     {
       icon: <BrainCircuit className="w-5 h-5 text-yellow-400" />,
-      label: "Currently learning Next.js",
+      label: "Currently learning Nuxt.js",
     },
     {
       icon: <Coffee className="w-5 h-5 text-yellow-400" />,
