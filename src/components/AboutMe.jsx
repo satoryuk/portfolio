@@ -5,6 +5,7 @@ import {
   BrainCircuit,
   Coffee,
   Download,
+  Eye,
 } from "lucide-react";
 import { profile2 } from "../assets/Image";
 
@@ -37,10 +38,7 @@ const AboutMe = () => {
   const techStack = ["React JS", "Tailwind CSS", "Laravel"];
 
   return (
-    <section
-      className="py-8 px-6 md:px-12 bg-gray-950"
-      id="about"
-    >
+    <section className="py-8 px-6 md:px-12 bg-gray-950" id="about">
       <div className="max-w-[1500px] mx-auto">
         <div
           className={`grid lg:grid-cols-2 lg:gap-4 gap-2 items-center transition-all duration-1000 ${
@@ -50,7 +48,11 @@ const AboutMe = () => {
           {/* Profile Image */}
           <div className="relative max-w-80 sm:max-w-96 mx-auto lg:mx-0">
             <div className="relative overflow-hidden rounded-2xl shadow-lg hover:scale-105 transition-transform duration-500">
-              <img src={profile2} alt="profile" className="w-full object-cover" />
+              <img
+                src={profile2}
+                alt="profile"
+                className="w-full object-cover"
+              />
               <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-yellow-500 to-cyan-500"></div>
             </div>
           </div>
@@ -63,11 +65,11 @@ const AboutMe = () => {
                 About Me
               </p>
               <p className="text-gray-400 text-lg leading-relaxed text-left">
-                I enjoy crafting responsive, modern interfaces and working with APIs.
-                My main tech stack includes React, Tailwind CSS, and Laravel for
-                building powerful, full-stack applications. I love solving real-world
-                problems through code, and I'm always curious to explore new tech
-                trends and tools.
+                I enjoy crafting responsive, modern interfaces and working with
+                APIs. My main tech stack includes React, Tailwind CSS, and
+                Laravel for building powerful, full-stack applications. I love
+                solving real-world problems through code, and I'm always curious
+                to explore new tech trends and tools.
               </p>
             </div>
 
@@ -107,15 +109,24 @@ const AboutMe = () => {
                 ))}
               </div>
             </div>
-
-            <div className="pt-4">
+            {/* CV Buttons */}
+            <div className="flex gap-3 sm:gap-4">
               <a
                 href="/public/my_cv.pdf"
-                download
-                className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-yellow-500/25"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 sm:gap-3 bg-blue-500 hover:bg-blue-600 text-white px-4 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-blue-500/25 text-sm sm:text-base"
               >
-                <Download className="w-5 h-5" />
-                Download CV
+                <Eye className="w-4 h-4 sm:w-5 sm:h-5" />
+                <span>View CV</span>
+              </a>
+              <a
+                href="/public/my_cv.pdf"
+                download="ThongVathana.pdf"
+                className="inline-flex items-center gap-2 sm:gap-3 bg-green-500 hover:bg-green-600 text-white px-4 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-green-500/25 text-sm sm:text-base"
+              >
+                <Download className="w-4 h-4 sm:w-5 sm:h-5" />
+                <span>Download CV</span>
               </a>
             </div>
           </div>
